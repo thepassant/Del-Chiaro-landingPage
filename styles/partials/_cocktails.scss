@@ -38,6 +38,7 @@
     transition: all 0.4s ease-in-out 0s;
   }
 
+  //swiper styles
   .swiper-pagination-bullet-active,
   .swiper-pagination-bullet {
     background-color: transparent;
@@ -48,13 +49,6 @@
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
     top: 105%;
-  }
-
-  .swiper-button-next:after,
-  .swiper-rtl .swiper-button-prev:after,
-  .swiper-button-next:after,
-  .swiper-button-prev:after {
-    font-size: 10px;
   }
 
   .swiper-button-next,
@@ -72,15 +66,5 @@
   .swiper-button-next,
   .swiper-rtl .swiper-button-prev {
     right: 40%;
-  }
-
-  .swiper-button-next,
-  .swiper-button-prev {
-    color: $pink;
-  }
-
-  .swiper-button-next.swiper-button-disabled,
-  .swiper-button-prev.swiper-button-disabled {
-    color: $black3;
   }
 }
