@@ -53,6 +53,22 @@ body {
       gap: 5px;
       padding: 5px 15px; }
 
+.about-us-wrapper {
+  padding-bottom: 30px; }
+  .about-us-wrapper .about-us-image {
+    max-width: 400px;
+    width: 100%; }
+  .about-us-wrapper .about-us-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding-bottom: 30px; }
+    .about-us-wrapper .about-us-text #more-text {
+      display: none; }
+    .about-us-wrapper .about-us-text .read-more-button {
+      background-color: transparent; }
+
 .cocktails-wrapper {
   background-color: #f4f1e8;
   padding-bottom: 100px;
@@ -272,21 +288,5 @@ body {
     font-size: 20px;
     line-height: 28px;
     padding: 25px 0 5px; }
-
-.about-us-wrapper {
-  padding-bottom: 30px; }
-  .about-us-wrapper .about-us-image {
-    max-width: 400px;
-    width: 100%; }
-  .about-us-wrapper .about-us-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 100%;
-    padding-bottom: 30px; }
-    .about-us-wrapper .about-us-text #more-text {
-      display: none; }
-    .about-us-wrapper .about-us-text .read-more-button {
-      background-color: transparent; }
 
 /*# sourceMappingURL=index.css.map */
