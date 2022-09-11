@@ -68,7 +68,8 @@ body {
       -moz-transition: all 0.4s ease-in-out 0s;
       -webkit-transition: all 0.4s ease-in-out 0s;
       -ms-transition: all 0.4s ease-in-out 0s;
-      transition: all 0.4s ease-in-out 0s; }
+      transition: all 0.4s ease-in-out 0s;
+      text-align: center; }
 
 .footer-garden {
   background-image: url("../../assets/footerGarden.png");
