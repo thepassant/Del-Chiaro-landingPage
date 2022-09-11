@@ -1,3 +1,23 @@
+body {
+  font-family: "Jura", sans-serif; }
+  body .title {
+    font-family: "Karantina", cursive;
+    color: #231610;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 79px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; }
+  body .button {
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #e45b74;
+    padding: 6px 10px;
+    color: #ffffff;
+    display: flex; }
+
 .latest-news {
   min-height: 1400px; }
   .latest-news .title.news-title {
@@ -28,13 +48,6 @@
       font-size: 45px;
       line-height: 45px;
       letter-spacing: 0.02em; }
-    .latest-news .news-card .read-more {
-      outline: none;
-      border: none;
-      border-radius: 4px;
-      background-color: #e45b74;
-      padding: 6px 10px;
-      display: flex; }
 
 .footer-garden {
   background-image: url("../../assets/footerGarden.png");
@@ -127,17 +140,5 @@
     font-size: 20px;
     line-height: 28px;
     padding: 25px 0 5px; }
-
-body {
-  font-family: "Jura", sans-serif; }
-  body .title {
-    font-family: "Karantina", cursive;
-    color: #231610;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 79px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase; }
 
 /*# sourceMappingURL=index.css.map */

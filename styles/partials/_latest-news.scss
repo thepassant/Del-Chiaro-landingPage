@@ -39,10 +39,5 @@
       line-height: 45px;
       letter-spacing: 0.02em;
     }
-
-    .read-more {
-      @include button;
-      display: flex;
-    }
   }
 }
