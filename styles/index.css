@@ -67,7 +67,9 @@
             line-height: 28px; }
     .footer-wrapper .footer-menu-wrapper #go-to-top {
       background-color: transparent;
-      color: #ffffff; }
+      color: #ffffff;
+      border: none;
+      outline: none; }
       .footer-wrapper .footer-menu-wrapper #go-to-top img {
         margin-inline-start: 5px; }
   .footer-wrapper .copy-write {
