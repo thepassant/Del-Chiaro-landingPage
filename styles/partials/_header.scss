@@ -1,0 +1,27 @@
+.header-wrapper {
+  nav {
+    background-color: transparent;
+
+    .menu-wrapper {
+      background-color: rgba($white2, 0.52);
+      width: 60%;
+
+      .ul-menu {
+        width: 100%;
+      }
+    }
+    .language-wrapper {
+      background-color: $pink;
+      border-radius: 5px;
+
+      .selected-lang {
+        color: $white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        padding: 5px 15px;
+      }
+    }
+  }
+}

@@ -18,6 +18,24 @@ body {
     color: #ffffff;
     display: flex; }
 
+.header-wrapper nav {
+  background-color: transparent; }
+  .header-wrapper nav .menu-wrapper {
+    background-color: rgba(255, 252, 237, 0.52);
+    width: 60%; }
+    .header-wrapper nav .menu-wrapper .ul-menu {
+      width: 100%; }
+  .header-wrapper nav .language-wrapper {
+    background-color: #e45b74;
+    border-radius: 5px; }
+    .header-wrapper nav .language-wrapper .selected-lang {
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      padding: 5px 15px; }
+
 .latest-news {
   min-height: 1400px; }
   .latest-news .title.news-title {
