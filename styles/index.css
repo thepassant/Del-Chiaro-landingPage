@@ -9,6 +9,19 @@ body {
     line-height: 79px;
     letter-spacing: 0.03em;
     text-transform: uppercase; }
+  body .section-title {
+    font-family: "Karantina", cursive;
+    color: #231610;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 79px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin: 0; }
   body .button {
     outline: none;
     border: none;
@@ -35,11 +48,12 @@ body {
       gap: 5px;
       padding: 5px 15px; }
 
+.cocktails-wrapper {
+  background-color: #f4f1e8;
+  padding: 30px 0; }
+
 .latest-news {
   min-height: 1400px; }
-  .latest-news .title.news-title {
-    padding-top: 10px;
-    padding-bottom: 40px; }
   .latest-news .news-card {
     position: relative;
     overflow: hidden;

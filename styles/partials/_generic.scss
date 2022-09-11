@@ -5,6 +5,14 @@ body {
     @include title;
   }
 
+  .section-title {
+    @include title;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin: 0;
+  }
+
   .button {
     @include button;
   }
