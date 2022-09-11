@@ -40,6 +40,8 @@ body {
   body .swiper-button-next.swiper-button-disabled,
   body .swiper-button-prev.swiper-button-disabled {
     color: #231610; }
+  body .swiper-horizontal > .swiper-pagination-bullets, body .swiper-pagination-bullets.swiper-pagination-horizontal, body .swiper-pagination-custom, body .swiper-pagination-fraction {
+    bottom: unset; }
 
 .header-garden {
   background-image: url("../../assets/headerGarden.png");
@@ -47,6 +49,11 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   position: relative; }
+
+.peacock {
+  position: absolute;
+  top: 43%;
+  right: 30%; }
 
 .header-wrapper nav {
   background-color: transparent; }
@@ -65,15 +72,44 @@ body {
       gap: 5px;
       padding: 5px 15px; }
 
-.header-garden .peacock {
-  position: absolute;
-  top: 43%;
-  right: 30%; }
-.header-garden .pink {
+.hero-slider-wrapper .hero-swiper-container {
+  position: relative;
+  padding-bottom: 50px;
+  overflow: hidden; }
+.hero-slider-wrapper .pink {
   color: #e45b74; }
+.hero-slider-wrapper .image-wrapper .bottle1 {
+  width: 100%;
+  max-width: 400px; }
+.hero-slider-wrapper .swiper-pagination-bullet-active,
+.hero-slider-wrapper .swiper-pagination-bullet {
+  color: #000000;
+  background-color: transparent;
+  opacity: 1; }
+.hero-slider-wrapper .swiper-pagination-bullet-active {
+  color: #e45b74; }
+.hero-slider-wrapper .swiper-horizontal > .swiper-pagination-bullets,
+.hero-slider-wrapper .swiper-pagination-bullets.swiper-pagination-horizontal,
+.hero-slider-wrapper .swiper-pagination-custom,
+.hero-slider-wrapper .swiper-pagination-fraction {
+  top: 92.5%; }
+.hero-slider-wrapper .swiper-button-next,
+.hero-slider-wrapper .swiper-rtl .swiper-button-prev,
+.hero-slider-wrapper .swiper-button-prev,
+.hero-slider-wrapper .swiper-rtl .swiper-button-next {
+  top: 95%; }
+.hero-slider-wrapper .swiper-button-prev,
+.hero-slider-wrapper .swiper-rtl .swiper-button-next {
+  left: 75%; }
+.hero-slider-wrapper .swiper-button-next,
+.hero-slider-wrapper .swiper-rtl .swiper-button-prev {
+  right: 20%; }
+.hero-slider-wrapper .swiper-button-next.swiper-button-disabled,
+.hero-slider-wrapper .swiper-button-prev.swiper-button-disabled {
+  opacity: 1; }
 
 .about-us-wrapper {
-  padding-bottom: 30px; }
+  padding: 400px 0 30px; }
   .about-us-wrapper .about-us-image {
     max-width: 400px;
     width: 100%; }
