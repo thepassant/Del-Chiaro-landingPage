@@ -18,7 +18,7 @@ body .button {
   background-color: #e45b74;
   padding: 6px 10px;
   color: #ffffff;
-  display: flex;
+  display: inline-flex;
 }
 
 .header-garden {
@@ -225,6 +225,9 @@ body .button {
   padding: 25px 0 5px;
 }
 
-.more {
+.about-us-wrapper #more {
   display: none;
+}
+.about-us-wrapper .read-more {
+  background-color: transparent;
 }/*# sourceMappingURL=index.css.map */
