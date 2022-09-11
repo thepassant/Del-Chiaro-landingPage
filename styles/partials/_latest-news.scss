@@ -1,3 +1,51 @@
 .latest-news {
   min-height: 1400px;
+
+  .title.news-title {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+
+  .news-card {
+    border: 1px solid $pink;
+    border-radius: 4px;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+    .inner-news-card-wrapper {
+      max-width: 327px;
+      width: 100%;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .date {
+      font-family: "Jura", sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 28px;
+      color: pink;
+      margin: 0;
+    }
+
+    .title {
+      font-size: 45px;
+      line-height: 45px;
+      letter-spacing: 0.02em;
+    }
+
+    .read-more {
+      outline: none;
+      border: none;
+      border-radius: 4px;
+      background-color: $pink;
+      padding: 5px 10px;
+    }
+  }
 }

@@ -1,0 +1,10 @@
+@mixin title {
+  font-family: "Karantina", cursive;
+  color: $black3;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 79px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}

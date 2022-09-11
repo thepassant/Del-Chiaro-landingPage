@@ -1,5 +1,39 @@
 .latest-news {
   min-height: 1400px; }
+  .latest-news .title.news-title {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px; }
+  .latest-news .news-card {
+    border: 1px solid #e45b74;
+    border-radius: 4px;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    height: 100%; }
+    .latest-news .news-card .inner-news-card-wrapper {
+      max-width: 327px;
+      width: 100%; }
+    .latest-news .news-card img {
+      width: 100%; }
+    .latest-news .news-card .date {
+      font-family: "Jura", sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 28px;
+      color: pink;
+      margin: 0; }
+    .latest-news .news-card .title {
+      font-size: 45px;
+      line-height: 45px;
+      letter-spacing: 0.02em; }
+    .latest-news .news-card .read-more {
+      outline: none;
+      border: none;
+      border-radius: 4px;
+      background-color: #e45b74;
+      padding: 5px 10px; }
 
 .footer-garden {
   background-image: url("../../assets/footerGarden.png");
@@ -8,7 +42,7 @@
   background-position: top; }
 
 .footer-wrapper {
-  background-color: #0B0B0B; }
+  background-color: #0b0b0b; }
   .footer-wrapper .footer-menu-wrapper {
     padding: 60px 0; }
     .footer-wrapper .footer-menu-wrapper .social-icons-wrapper {
@@ -32,7 +66,7 @@
         font-size: 20px;
         line-height: 40px; }
         .footer-wrapper .footer-menu-wrapper .footer-menu .footer-link:hover {
-          color: #E45B74; }
+          color: #e45b74; }
     .footer-wrapper .footer-menu-wrapper .contact-menu {
       display: inline-flex;
       flex-direction: column; }
@@ -68,7 +102,7 @@
           .footer-wrapper .footer-menu-wrapper .contact-menu ul li .contact-link {
             text-decoration: none; }
             .footer-wrapper .footer-menu-wrapper .contact-menu ul li .contact-link:hover {
-              color: #E45B74; }
+              color: #e45b74; }
           .footer-wrapper .footer-menu-wrapper .contact-menu ul li .info {
             color: #ffffff;
             font-weight: 300;
@@ -95,5 +129,14 @@
 
 body {
   font-family: "Jura", sans-serif; }
+  body .title {
+    font-family: "Karantina", cursive;
+    color: #231610;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 79px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; }
 
 /*# sourceMappingURL=index.css.map */
