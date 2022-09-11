@@ -52,8 +52,9 @@ body {
 
 .peacock {
   position: absolute;
-  top: 43%;
-  right: 30%; }
+  top: 55.5%;
+  left: 50%;
+  transform: translate(-55.5%, -50%); }
 
 .header-wrapper nav {
   background-color: transparent; }
@@ -112,7 +113,7 @@ body {
   opacity: 1; }
 
 .about-us-wrapper {
-  padding: 400px 0 30px; }
+  padding: 400px 0 40px; }
   .about-us-wrapper .about-us-image {
     max-width: 400px;
     width: 100%; }
