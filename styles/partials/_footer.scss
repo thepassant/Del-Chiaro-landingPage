@@ -1,6 +1,28 @@
 .footer-wrapper {
   background-color: $black2;
 
+  .footer-menu {
+    padding: 60px 0;
+
+    .social-icons-wrapper {
+      padding-top: 35px;
+
+      a {
+        color: transparent;
+        svg {
+          cursor: pointer;
+
+          &:hover {
+            path,
+            rect {
+              stroke: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+
   .copy-write {
     border-top: 1px solid $light-grey;
     display: flex;

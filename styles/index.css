@@ -1,5 +1,16 @@
 .footer-wrapper {
   background-color: #0B0B0B; }
+  .footer-wrapper .footer-menu {
+    padding: 60px 0; }
+    .footer-wrapper .footer-menu .social-icons-wrapper {
+      padding-top: 35px; }
+      .footer-wrapper .footer-menu .social-icons-wrapper a {
+        color: transparent; }
+        .footer-wrapper .footer-menu .social-icons-wrapper a svg {
+          cursor: pointer; }
+          .footer-wrapper .footer-menu .social-icons-wrapper a svg:hover path,
+          .footer-wrapper .footer-menu .social-icons-wrapper a svg:hover rect {
+            stroke: #ffffff; }
   .footer-wrapper .copy-write {
     border-top: 1px solid #363636;
     display: flex;
