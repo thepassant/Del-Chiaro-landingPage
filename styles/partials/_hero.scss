@@ -3,16 +3,20 @@
     position: relative;
     padding-bottom: 50px;
     overflow: hidden;
-  }
 
-  .pink {
-    color: $pink;
-  }
+    .pink {
+      color: $pink;
+    }
 
-  .image-wrapper {
-    .bottle1 {
-      width: 100%;
-      max-width: 400px;
+    .image-wrapper {
+      .bottle1 {
+        width: 100%;
+        max-width: 400px;
+      }
+    }
+
+    .read-more {
+      padding: 6px 30px;
     }
   }
 
@@ -32,24 +36,25 @@
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
-    top: 92.5%;
+    top: 40.2%;
+    text-align: left;
   }
 
   .swiper-button-next,
   .swiper-rtl .swiper-button-prev,
   .swiper-button-prev,
   .swiper-rtl .swiper-button-next {
-    top: 95%;
+    top: 42%;
   }
 
   .swiper-button-prev,
   .swiper-rtl .swiper-button-next {
-    left: 75%;
+    left: 5%;
   }
 
   .swiper-button-next,
   .swiper-rtl .swiper-button-prev {
-    right: 20%;
+    right: 90%;
   }
 
   .swiper-button-next.swiper-button-disabled,

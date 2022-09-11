@@ -14,10 +14,10 @@ const onLoad = () => {
     slidesPerView: 1,
     spaceBetween: 30,
     centeredSlides: true,
-    autoplay: {
+    /*autoplay: {
       delay: 6000,
       disableOnInteraction: false,
-    },
+    },*/
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -32,14 +32,14 @@ const onLoad = () => {
   });
 
   //pause autoplay on hover over title or button
-  $(".hero-swiper-container .title, .hero-swiper-container .button").hover(
+  /*$(".hero-swiper-container .title, .hero-swiper-container .button").hover(
     function () {
       heroSwiper.autoplay.stop();
     },
     function () {
       heroSwiper.autoplay.start();
     }
-  );
+  );*/
 
   //showcase swiper
   const showcaseSwiper = new Swiper(".show-swiper-container", {
