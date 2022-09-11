@@ -7,8 +7,7 @@ body {
 
   .section-title {
     @include title;
-    padding-top: 10px;
-    padding-bottom: 40px;
+    padding: 40px 0;
     text-align: center;
     margin: 0;
   }
