@@ -1,0 +1,16 @@
+.footer-wrapper {
+  background-color: $black2;
+
+  .copy-write {
+    border-top: 1px solid $light-grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: $light-grey-2;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 25px 0 5px;
+  }
+}
