@@ -1,4 +1,58 @@
 .cocktails-wrapper {
   background-color: $beige;
-  padding: 30px 0;
+  padding: 30px 0 100px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    border-radius: 5px;
+    user-select: none;
+  }
+
+  .swiper-pagination-bullet-active,
+  .swiper-pagination-bullet {
+    background-color: transparent;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: -70px;
+  }
+
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after,
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 10px;
+  }
+
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev,
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    bottom: -82px;
+    top: unset;
+  }
+
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    left: 55%;
+  }
+
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    right: 40%;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: $pink;
+  }
+
+  .swiper-button-next.swiper-button-disabled,
+  .swiper-button-prev.swiper-button-disabled {
+    color: $black3;
+  }
 }

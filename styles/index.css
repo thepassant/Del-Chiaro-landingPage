@@ -50,7 +50,43 @@ body {
 
 .cocktails-wrapper {
   background-color: #f4f1e8;
-  padding: 30px 0; }
+  padding: 30px 0 100px;
+  overflow: hidden; }
+  .cocktails-wrapper img {
+    width: 100%;
+    border-radius: 5px;
+    user-select: none; }
+  .cocktails-wrapper .swiper-pagination-bullet-active,
+  .cocktails-wrapper .swiper-pagination-bullet {
+    background-color: transparent; }
+  .cocktails-wrapper .swiper-horizontal > .swiper-pagination-bullets,
+  .cocktails-wrapper .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .cocktails-wrapper .swiper-pagination-custom,
+  .cocktails-wrapper .swiper-pagination-fraction {
+    bottom: -70px; }
+  .cocktails-wrapper .swiper-button-next:after,
+  .cocktails-wrapper .swiper-rtl .swiper-button-prev:after,
+  .cocktails-wrapper .swiper-button-next:after,
+  .cocktails-wrapper .swiper-button-prev:after {
+    font-size: 10px; }
+  .cocktails-wrapper .swiper-button-next,
+  .cocktails-wrapper .swiper-rtl .swiper-button-prev,
+  .cocktails-wrapper .swiper-button-prev,
+  .cocktails-wrapper .swiper-rtl .swiper-button-next {
+    bottom: -82px;
+    top: unset; }
+  .cocktails-wrapper .swiper-button-prev,
+  .cocktails-wrapper .swiper-rtl .swiper-button-next {
+    left: 55%; }
+  .cocktails-wrapper .swiper-button-next,
+  .cocktails-wrapper .swiper-rtl .swiper-button-prev {
+    right: 40%; }
+  .cocktails-wrapper .swiper-button-next,
+  .cocktails-wrapper .swiper-button-prev {
+    color: #e45b74; }
+  .cocktails-wrapper .swiper-button-next.swiper-button-disabled,
+  .cocktails-wrapper .swiper-button-prev.swiper-button-disabled {
+    color: #231610; }
 
 .latest-news {
   min-height: 1400px; }
