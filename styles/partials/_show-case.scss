@@ -1,0 +1,22 @@
+.show-case-wrapper {
+  background-image: url("../../assets/showCase/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 0;
+  position: relative;
+  min-height: 590px;
+
+  .green-leave {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .flower {
+    position: absolute;
+    bottom: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 420px;
+  }
+}

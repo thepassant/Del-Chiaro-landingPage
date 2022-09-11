@@ -69,6 +69,24 @@ body {
     .about-us-wrapper .about-us-text .read-more-button {
       background-color: transparent; }
 
+.show-case-wrapper {
+  background-image: url("../../assets/showCase/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 0;
+  position: relative;
+  min-height: 590px; }
+  .show-case-wrapper .green-leave {
+    position: absolute;
+    right: 0;
+    top: 0; }
+  .show-case-wrapper .flower {
+    position: absolute;
+    bottom: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 420px; }
+
 .cocktails-wrapper {
   background-color: #f4f1e8;
   padding-bottom: 100px;
