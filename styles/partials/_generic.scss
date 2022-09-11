@@ -15,4 +15,22 @@ body {
   .button {
     @include button;
   }
+
+  //swiper styles
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after,
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 10px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: $pink;
+  }
+
+  .swiper-button-next.swiper-button-disabled,
+  .swiper-button-prev.swiper-button-disabled {
+    color: $black3;
+  }
 }

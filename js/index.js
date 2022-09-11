@@ -9,6 +9,28 @@ const onLoad = () => {
   const span = document.getElementById("year");
   span.innerText = new Date().getFullYear().toString();
 
+  //showcase swiper
+  new Swiper(".show-swiper-container", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 6000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      renderBullet: function (index, className) {
+        return `<span class="${className}">${index + 1}</span>`;
+      },
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
   //cocktails swiper
   new Swiper(".cocktail-swiper-container", {
     slidesPerView: 3,
