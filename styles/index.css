@@ -62,7 +62,8 @@ body {
     background-color: rgba(255, 252, 237, 0.52);
     width: 60%; }
     .header-wrapper nav .menu-wrapper .ul-menu {
-      width: 100%; }
+      width: 100%;
+      padding-inline-end: 5px; }
   .header-wrapper nav .language-wrapper {
     background-color: #e45b74;
     border-radius: 5px; }
@@ -72,6 +73,8 @@ body {
       justify-content: center;
       gap: 5px;
       padding: 5px 15px; }
+      .header-wrapper nav .language-wrapper .selected-lang:hover {
+        color: #ffffff; }
 
 .hero-slider-wrapper .hero-swiper-container {
   position: relative;
