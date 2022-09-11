@@ -85,32 +85,44 @@
         </nav>
       </header>
       <section class="about-us-wrapper">
-        <div class="container text-center">
+        <div class="container">
           <div class="row">
             <div class="col">
-              <img src="assets/about-us.png" alt="about us" />
+              <img
+                class="about-us-image"
+                src="assets/about-us.png"
+                alt="about us"
+              />
             </div>
             <div class="col">
-              <h3 class="title">about us</h3>
-              <p class="description">
-                Born in 1660 (other sources claim 1650, or 1680), the italian
-                Anton-Maria Del Chiaro, a Florentine by birth,
-                <span id="dots">...</span>
-                <span id="more">
-                  was the secretary of the Wallachian Prince Constantin
-                  Brâncoveanu as well as the tutor of the children of Ștefan
-                  Cantacuzino, another Wallachian prince. He published on 22
-                  August 1718 in Venice the book titled “The History of the
-                  Modern Revolutions of Wallachia”
-                </span>
-              </p>
-              <button onclick="showMore()" id="myBtn" class="button read-more">
-                <img
-                  id="read-more-icon"
-                  src="assets/chevronDown.svg"
-                  alt="chevron down"
-                />
-              </button>
+              <div class="about-us-text">
+                <h3 class="title">about us</h3>
+                <p class="description">
+                  Born in 1660 (other sources claim 1650, or 1680), the italian
+                  Anton-Maria Del Chiaro, a Florentine by birth,
+                  <span id="dots">...</span>
+                  <span id="more">
+                    was the secretary of the Wallachian Prince Constantin
+                    Brâncoveanu as well as the tutor of the children of Ștefan
+                    Cantacuzino, another Wallachian prince. He published on 22
+                    August 1718 in Venice the book titled “The History of the
+                    Modern Revolutions of Wallachia”
+                  </span>
+                </p>
+                <div class="text-center">
+                  <button
+                    onclick="showMore()"
+                    id="myBtn"
+                    class="button read-more"
+                  >
+                    <img
+                      id="read-more-icon"
+                      src="assets/chevronDown.svg"
+                      alt="chevron down"
+                    />
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
