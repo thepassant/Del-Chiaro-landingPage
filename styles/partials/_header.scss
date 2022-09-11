@@ -1,0 +1,13 @@
+.header-wrapper {
+  nav {
+    background-color: transparent;
+
+    .menu-wrapper {
+      background-color: rgba($white2, 0.52);
+      width: 60%;
+    }
+    .language-wrapper {
+      background-color: $pink;
+    }
+  }
+}

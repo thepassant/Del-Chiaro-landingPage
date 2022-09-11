@@ -1,3 +1,10 @@
-
-
-/*# sourceMappingURL=index.css.map */
+.header-wrapper nav {
+  background-color: transparent;
+}
+.header-wrapper nav .menu-wrapper {
+  background-color: rgba(255, 252, 237, 0.52);
+  width: 60%;
+}
+.header-wrapper nav .language-wrapper {
+  background-color: #e45b74;
+}/*# sourceMappingURL=index.css.map */
