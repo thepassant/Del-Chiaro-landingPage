@@ -66,8 +66,11 @@ body .button {
 
 .header-garden .peacock {
   position: absolute;
-  right: 50%;
-  top: 50%;
+  top: 43%;
+  right: 30%;
+}
+.header-garden .pink {
+  color: #e45b74;
 }
 
 .about-us-wrapper {
