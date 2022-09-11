@@ -24,6 +24,47 @@
         line-height: 40px; }
         .footer-wrapper .footer-menu-wrapper .footer-menu .footer-link:hover {
           color: #E45B74; }
+    .footer-wrapper .footer-menu-wrapper .contact-menu {
+      display: inline-flex;
+      flex-direction: column; }
+      .footer-wrapper .footer-menu-wrapper .contact-menu ul {
+        list-style: none;
+        padding: 0;
+        text-align: start;
+        line-height: 21px;
+        margin: 0; }
+        .footer-wrapper .footer-menu-wrapper .contact-menu ul li {
+          padding-inline-start: 30px;
+          padding-bottom: 10px; }
+          .footer-wrapper .footer-menu-wrapper .contact-menu ul li:before {
+            content: "";
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-inline-start: -30px;
+            margin-bottom: -3px;
+            margin-top: 3px; }
+          .footer-wrapper .footer-menu-wrapper .contact-menu ul li:nth-of-type(1):before {
+            height: 17px;
+            width: 24px;
+            background-image: url("../../assets/envelop.svg"); }
+          .footer-wrapper .footer-menu-wrapper .contact-menu ul li:nth-of-type(2):before {
+            height: 17px;
+            width: 24px;
+            background-image: url("../../assets/mobile.svg"); }
+          .footer-wrapper .footer-menu-wrapper .contact-menu ul li:nth-of-type(3):before {
+            height: 20px;
+            width: 24px;
+            background-image: url("../../assets/locationPin.svg"); }
+          .footer-wrapper .footer-menu-wrapper .contact-menu ul li .contact-link {
+            text-decoration: none; }
+            .footer-wrapper .footer-menu-wrapper .contact-menu ul li .contact-link:hover {
+              color: #E45B74; }
+          .footer-wrapper .footer-menu-wrapper .contact-menu ul li .info {
+            color: #ffffff;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 28px; }
   .footer-wrapper .copy-write {
     border-top: 1px solid #363636;
     display: flex;
