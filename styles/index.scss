@@ -1,7 +1,6 @@
 @import "partials/variables";
+@import "partials/mixins";
+@import "partials/generic";
 @import "./partials/header";
+@import "partials/latest-news";
 @import "partials/footer";
-
-body {
-  font-family: "Jura", sans-serif;
-}
