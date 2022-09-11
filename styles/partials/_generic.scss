@@ -1,0 +1,11 @@
+body {
+  font-family: "Jura", sans-serif;
+
+  .title {
+    @include title;
+  }
+
+  .button {
+    @include button;
+  }
+}
