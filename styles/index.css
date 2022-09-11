@@ -52,9 +52,9 @@ body {
 
 .peacock {
   position: absolute;
-  top: 55.5%;
+  top: 60%;
   left: 50%;
-  transform: translate(-55.5%, -50%); }
+  transform: translate(-60%, -50%); }
 
 .header-wrapper nav {
   background-color: transparent; }
