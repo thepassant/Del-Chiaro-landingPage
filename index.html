@@ -20,105 +20,145 @@
     <title>DEL CHIARO</title>
   </head>
   <body>
-    <div class="header-garden">
-      <header class="header-wrapper">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid justify-content-around mt-2">
-            <div class="logo-wrapper">
-              <a class="navbar-brand" href="#">
-                <img src="./assets/logo.svg" alt="logo" />
-              </a>
-            </div>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="d-flex menu-wrapper" id="navbarSupportedContent">
-              <ul
-                class="navbar-nav align-items-center justify-content-between ul-menu me-auto mb-2 mb-lg-0"
-              >
-                <div class="d-flex">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >Home</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Heritage</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Drinks</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Cocktails</a>
-                  </li>
-                </div>
-                <div class="language-wrapper">
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle button selected-lang"
-                      href="#"
-                      id="navbarDropdown"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      EN
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#En">EN</a></li>
-                      <li><hr class="dropdown-divider" /></li>
-                      <li><a class="dropdown-item" href="#Gr">GR</a></li>
-                    </ul>
-                  </li>
-                </div>
-              </ul>
-            </div>
+  <div class="header-garden">
+    <header class="header-wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid justify-content-around mt-2">
+          <div class="logo-wrapper">
+            <a class="navbar-brand" href="#">
+              <img src="./assets/logo.svg" alt="logo" />
+            </a>
           </div>
-        </nav>
-      </header>
-      <section class="about-us-wrapper">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col">
-              <img src="assets/about-us.png" alt="about us" />
-            </div>
-            <div class="col">
-              <h3 class="title">about us</h3>
-              <p class="description">
-                Born in 1660 (other sources claim 1650, or 1680), the italian
-                Anton-Maria Del Chiaro, a Florentine by birth,
-                <span id="dots">...</span>
-                <span id="more">
+          <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-flex menu-wrapper" id="navbarSupportedContent">
+            <ul
+                    class="navbar-nav align-items-center justify-content-between ul-menu me-auto mb-2 mb-lg-0"
+            >
+              <div class="d-flex">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                  >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Heritage</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Drinks</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cocktails</a>
+                </li>
+              </div>
+              <div class="language-wrapper">
+                <li class="nav-item dropdown">
+                  <a
+                          class="nav-link dropdown-toggle button selected-lang"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                  >
+                    EN
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#En">EN</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#Gr">GR</a></li>
+                  </ul>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="about-us-wrapper">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img src="assets/about-us.png" alt="about us" />
+          </div>
+          <div class="col">
+            <h3 class="title">about us</h3>
+            <p class="description">
+              Born in 1660 (other sources claim 1650, or 1680), the italian
+              Anton-Maria Del Chiaro, a Florentine by birth,
+              <span id="dots">...</span>
+              <span id="more">
                   was the secretary of the Wallachian Prince Constantin
                   Brâncoveanu as well as the tutor of the children of Ștefan
                   Cantacuzino, another Wallachian prince. He published on 22
                   August 1718 in Venice the book titled “The History of the
                   Modern Revolutions of Wallachia”
                 </span>
-              </p>
-              <button onclick="showMore()" id="myBtn" class="button read-more">
-                <img
-                  id="read-more-icon"
-                  src="assets/chevronDown.svg"
-                  alt="chevron down"
-                />
-              </button>
+            </p>
+            <button onclick="showMore()" id="myBtn" class="button read-more">
+              <img
+                      id="read-more-icon"
+                      src="assets/chevronDown.svg"
+                      alt="chevron down"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+    <section class="cocktails-wrapper">
+      <h1 class="section-title">cocktails</h1>
+      <div class="cocktail-swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/cocktails/cocktail1.png" alt="cocktail 1" />
+            <div class="top-layer">
+              <h3 class="title">del chiaro</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/cocktails/cocktail2.png" alt="cocktail 2" />
+            <div class="top-layer">
+              <h3 class="title">del chiaro</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/cocktails/cocktail3.png" alt="cocktail 3" />
+            <div class="top-layer">
+              <h3 class="title">del chiaro</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/cocktails/cocktail4.png" alt="cocktail 4" />
+            <div class="top-layer">
+              <h3 class="title">del chiaro</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
           </div>
         </div>
-      </section>
-    </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
     <div class="footer-garden">
       <section class="latest-news">
-        <h1 class="title news-title text-center">latest news</h1>
+        <h1 class="section-title">latest news</h1>
         <div class="container">
           <div class="row">
             <div class="col">
@@ -134,10 +174,9 @@
                 <div class="top-layer">
                   <h3 class="title">build a cool evening</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A,
-                    ad atque corporis dolor doloremque eligendi est, iure iusto,
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     magnam molestiae molestias omnis placeat repudiandae sunt
-                    tempore veritatis voluptatem voluptates. Autem!
+                    tempore veritatis voluptatem voluptates.
                   </p>
                 </div>
               </div>
@@ -155,10 +194,9 @@
                 <div class="top-layer">
                   <h3 class="title">common questions</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A,
-                    ad atque corporis dolor doloremque eligendi est, iure iusto,
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     magnam molestiae molestias omnis placeat repudiandae sunt
-                    tempore veritatis voluptatem voluptates. Autem!
+                    tempore veritatis voluptatem voluptates.
                   </p>
                 </div>
               </div>
@@ -179,10 +217,9 @@
                 <div class="top-layer">
                   <h3 class="title">ideal cocktails from our barmen</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A,
-                    ad atque corporis dolor doloremque eligendi est, iure iusto,
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     magnam molestiae molestias omnis placeat repudiandae sunt
-                    tempore veritatis voluptatem voluptates. Autem!
+                    tempore veritatis voluptatem voluptates.
                   </p>
                 </div>
               </div>
@@ -339,6 +376,11 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.6.1.min.js"
       integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
