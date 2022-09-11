@@ -33,7 +33,8 @@
       border: none;
       border-radius: 4px;
       background-color: #e45b74;
-      padding: 5px 10px; }
+      padding: 6px 10px;
+      display: flex; }
 
 .footer-garden {
   background-image: url("../../assets/footerGarden.png");
