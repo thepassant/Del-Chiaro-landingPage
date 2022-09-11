@@ -1,5 +1,12 @@
 $list-padding: 30px;
 
+.footer-garden {
+  background-image: url("../../assets/footerGarden.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
 .footer-wrapper {
   background-color: $black2;
 

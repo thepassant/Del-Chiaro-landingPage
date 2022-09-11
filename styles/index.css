@@ -1,3 +1,12 @@
+.latest-news {
+  min-height: 1400px; }
+
+.footer-garden {
+  background-image: url("../../assets/footerGarden.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top; }
+
 .footer-wrapper {
   background-color: #0B0B0B; }
   .footer-wrapper .footer-menu-wrapper {
