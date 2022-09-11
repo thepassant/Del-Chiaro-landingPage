@@ -1,7 +1,7 @@
 .footer-wrapper {
   background-color: $black2;
 
-  .footer-menu {
+  .footer-menu-wrapper {
     padding: 60px 0;
 
     .social-icons-wrapper {
@@ -19,6 +19,27 @@
             }
           }
         }
+      }
+    }
+
+    .footer-menu {
+      align-self: center;
+      text-align: start;
+      display: inline-flex;
+      flex-direction: column;
+
+      .footer-link {
+        color: $white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 40px;
+
+        &:hover {
+          color: $pink;
+        }
+
+
       }
     }
   }

@@ -1,16 +1,29 @@
 .footer-wrapper {
   background-color: #0B0B0B; }
-  .footer-wrapper .footer-menu {
+  .footer-wrapper .footer-menu-wrapper {
     padding: 60px 0; }
-    .footer-wrapper .footer-menu .social-icons-wrapper {
+    .footer-wrapper .footer-menu-wrapper .social-icons-wrapper {
       padding-top: 35px; }
-      .footer-wrapper .footer-menu .social-icons-wrapper a {
+      .footer-wrapper .footer-menu-wrapper .social-icons-wrapper a {
         color: transparent; }
-        .footer-wrapper .footer-menu .social-icons-wrapper a svg {
+        .footer-wrapper .footer-menu-wrapper .social-icons-wrapper a svg {
           cursor: pointer; }
-          .footer-wrapper .footer-menu .social-icons-wrapper a svg:hover path,
-          .footer-wrapper .footer-menu .social-icons-wrapper a svg:hover rect {
+          .footer-wrapper .footer-menu-wrapper .social-icons-wrapper a svg:hover path,
+          .footer-wrapper .footer-menu-wrapper .social-icons-wrapper a svg:hover rect {
             stroke: #ffffff; }
+    .footer-wrapper .footer-menu-wrapper .footer-menu {
+      align-self: center;
+      text-align: start;
+      display: inline-flex;
+      flex-direction: column; }
+      .footer-wrapper .footer-menu-wrapper .footer-menu .footer-link {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 40px; }
+        .footer-wrapper .footer-menu-wrapper .footer-menu .footer-link:hover {
+          color: #E45B74; }
   .footer-wrapper .copy-write {
     border-top: 1px solid #363636;
     display: flex;
