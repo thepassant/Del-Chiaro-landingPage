@@ -10,7 +10,7 @@ const onLoad = () => {
   span.innerText = new Date().getFullYear().toString();
 
   //showcase swiper
-  new Swiper(".show-swiper-container", {
+  const showcaseSwiper = new Swiper(".show-swiper-container", {
     slidesPerView: 1,
     spaceBetween: 30,
     centeredSlides: true,
@@ -30,6 +30,15 @@ const onLoad = () => {
       prevEl: ".swiper-button-prev",
     },
   });
+
+  $(".show-swiper-container .title, .show-swiper-container .button").hover(
+    function () {
+      showcaseSwiper.autoplay.stop();
+    },
+    function () {
+      showcaseSwiper.autoplay.start();
+    }
+  );
 
   //cocktails swiper
   new Swiper(".cocktail-swiper-container", {
