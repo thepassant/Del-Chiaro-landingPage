@@ -30,7 +30,6 @@ body {
     border-radius: 5px; }
     .header-wrapper nav .language-wrapper .selected-lang {
       color: #ffffff;
-      display: flex;
       align-items: center;
       justify-content: center;
       gap: 5px;
