@@ -21,33 +21,54 @@ body {
 .latest-news {
   min-height: 1400px; }
   .latest-news .title.news-title {
-    text-align: center;
     padding-top: 10px;
     padding-bottom: 40px; }
   .latest-news .news-card {
+    position: relative;
+    overflow: hidden;
     border: 1px solid #e45b74;
     border-radius: 4px;
     padding: 40px 20px;
     display: flex;
     justify-content: center;
     height: 100%; }
-    .latest-news .news-card .inner-news-card-wrapper {
-      max-width: 327px;
-      width: 100%; }
-    .latest-news .news-card img {
-      width: 100%; }
-    .latest-news .news-card .date {
-      font-family: "Jura", sans-serif;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 20px;
-      line-height: 28px;
-      color: pink;
-      margin: 0; }
     .latest-news .news-card .title {
       font-size: 45px;
       line-height: 45px;
       letter-spacing: 0.02em; }
+    .latest-news .news-card:hover .top-layer {
+      opacity: 1; }
+    .latest-news .news-card:hover .inner-news-card-wrapper {
+      opacity: 0; }
+    .latest-news .news-card .inner-news-card-wrapper {
+      max-width: 327px;
+      width: 100%;
+      -moz-transition: all 0.4s ease-in-out 0s;
+      -webkit-transition: all 0.4s ease-in-out 0s;
+      -ms-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s; }
+      .latest-news .news-card .inner-news-card-wrapper img {
+        width: 100%; }
+      .latest-news .news-card .inner-news-card-wrapper .date {
+        font-family: "Jura", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        color: pink;
+        margin: 0; }
+    .latest-news .news-card .top-layer {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 20px;
+      -moz-transition: all 0.4s ease-in-out 0s;
+      -webkit-transition: all 0.4s ease-in-out 0s;
+      -ms-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s; }
 
 .footer-garden {
   background-image: url("../../assets/footerGarden.png");
