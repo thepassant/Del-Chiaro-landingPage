@@ -40,20 +40,39 @@ body {
   body .swiper-button-next.swiper-button-disabled,
   body .swiper-button-prev.swiper-button-disabled {
     color: #231610; }
+  body .swiper-horizontal > .swiper-pagination-bullets, body .swiper-pagination-bullets.swiper-pagination-horizontal, body .swiper-pagination-custom, body .swiper-pagination-fraction {
+    bottom: unset; }
 
 .header-garden {
   background-image: url("../../assets/headerGarden.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top; }
+  background-position: top;
+  position: relative;
+  overflow: hidden; }
+
+.peacock {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-60%, -50%); }
 
 .header-wrapper nav {
   background-color: transparent; }
+  .header-wrapper nav .extra-menu-part {
+    position: absolute;
+    background-color: rgba(255, 252, 237, 0.52);
+    top: 0;
+    right: -303px;
+    height: 40px;
+    width: 303px; }
   .header-wrapper nav .menu-wrapper {
     background-color: rgba(255, 252, 237, 0.52);
-    width: 60%; }
+    width: 60%;
+    position: relative; }
     .header-wrapper nav .menu-wrapper .ul-menu {
-      width: 100%; }
+      width: 100%;
+      padding-inline-end: 5px; }
   .header-wrapper nav .language-wrapper {
     background-color: #e45b74;
     border-radius: 5px; }
@@ -63,9 +82,50 @@ body {
       justify-content: center;
       gap: 5px;
       padding: 5px 15px; }
+      .header-wrapper nav .language-wrapper .selected-lang:hover {
+        color: #ffffff; }
+
+.hero-slider-wrapper .hero-swiper-container {
+  position: relative;
+  padding-bottom: 50px;
+  overflow: hidden; }
+  .hero-slider-wrapper .hero-swiper-container .pink {
+    color: #e45b74; }
+  .hero-slider-wrapper .hero-swiper-container .image-wrapper .bottle1 {
+    width: 100%;
+    max-width: 400px; }
+  .hero-slider-wrapper .hero-swiper-container .read-more {
+    padding: 6px 30px; }
+.hero-slider-wrapper .swiper-pagination-bullet-active,
+.hero-slider-wrapper .swiper-pagination-bullet {
+  color: #000000;
+  background-color: transparent;
+  opacity: 1; }
+.hero-slider-wrapper .swiper-pagination-bullet-active {
+  color: #e45b74; }
+.hero-slider-wrapper .swiper-horizontal > .swiper-pagination-bullets,
+.hero-slider-wrapper .swiper-pagination-bullets.swiper-pagination-horizontal,
+.hero-slider-wrapper .swiper-pagination-custom,
+.hero-slider-wrapper .swiper-pagination-fraction {
+  top: 40.2%;
+  text-align: left; }
+.hero-slider-wrapper .swiper-button-next,
+.hero-slider-wrapper .swiper-rtl .swiper-button-prev,
+.hero-slider-wrapper .swiper-button-prev,
+.hero-slider-wrapper .swiper-rtl .swiper-button-next {
+  top: 42%; }
+.hero-slider-wrapper .swiper-button-prev,
+.hero-slider-wrapper .swiper-rtl .swiper-button-next {
+  left: 5%; }
+.hero-slider-wrapper .swiper-button-next,
+.hero-slider-wrapper .swiper-rtl .swiper-button-prev {
+  right: 90%; }
+.hero-slider-wrapper .swiper-button-next.swiper-button-disabled,
+.hero-slider-wrapper .swiper-button-prev.swiper-button-disabled {
+  opacity: 1; }
 
 .about-us-wrapper {
-  padding-bottom: 30px; }
+  padding: 250px 0 40px; }
   .about-us-wrapper .about-us-image {
     max-width: 400px;
     width: 100%; }
@@ -84,9 +144,10 @@ body {
   background-image: url("../../assets/showCase/bg.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
   padding: 40px 0;
   position: relative;
-  min-height: 590px; }
+  min-height: 720px; }
   .show-case-wrapper .green-leave {
     position: absolute;
     right: 0;
@@ -104,7 +165,7 @@ body {
   .show-case-wrapper .show-swiper-container {
     overflow: hidden;
     position: relative;
-    height: 510px; }
+    height: 630px; }
   .show-case-wrapper .single-show-case {
     height: 90%; }
     .show-case-wrapper .single-show-case .title {
@@ -114,6 +175,11 @@ body {
     .show-case-wrapper .single-show-case .image,
     .show-case-wrapper .single-show-case .description {
       align-self: flex-end; }
+    .show-case-wrapper .single-show-case .show-case-image {
+      max-width: 350px;
+      width: 100%; }
+      .show-case-wrapper .single-show-case .show-case-image.second-image {
+        max-width: 310px; }
     .show-case-wrapper .single-show-case .description {
       color: #ffffff;
       font-weight: 300;

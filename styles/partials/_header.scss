@@ -1,19 +1,42 @@
+$extra-part-width: 303px;
+
 .header-garden {
   background-image: url("../../assets/headerGarden.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  position: relative;
+  overflow: hidden;
 }
+
+.peacock {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+}
+
 .header-wrapper {
   nav {
     background-color: transparent;
 
+    .extra-menu-part {
+      position: absolute;
+      background-color: rgba($white2, 0.52);
+      top: 0;
+      right: -$extra-part-width;
+      height: 40px;
+      width: $extra-part-width;
+    }
+
     .menu-wrapper {
       background-color: rgba($white2, 0.52);
       width: 60%;
+      position: relative;
 
       .ul-menu {
         width: 100%;
+        padding-inline-end: 5px;
       }
     }
     .language-wrapper {
@@ -26,6 +49,10 @@
         justify-content: center;
         gap: 5px;
         padding: 5px 15px;
+
+        &:hover {
+          color: $white;
+        }
       }
     }
   }

@@ -2,9 +2,10 @@
   background-image: url("../../assets/showCase/bg.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
   padding: 40px 0;
   position: relative;
-  min-height: 590px;
+  min-height: 720px;
 
   .green-leave {
     position: absolute;
@@ -31,7 +32,7 @@
   .show-swiper-container {
     overflow: hidden;
     position: relative;
-    height: 510px;
+    height: 630px;
   }
   .single-show-case {
     height: 90%;
@@ -45,6 +46,15 @@
     .image,
     .description {
       align-self: flex-end;
+    }
+
+    .show-case-image {
+      max-width: 350px;
+      width: 100%;
+
+      &.second-image {
+        max-width: 310px;
+      }
     }
 
     .description {

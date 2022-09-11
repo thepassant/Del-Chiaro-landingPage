@@ -23,7 +23,7 @@
     <div class="header-garden">
       <header class="header-wrapper">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid justify-content-around mt-2">
+          <div class="container mt-2">
             <div class="logo-wrapper">
               <a class="navbar-brand" href="#">
                 <img src="./assets/logo.svg" alt="logo" />
@@ -41,6 +41,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="d-flex menu-wrapper" id="navbarSupportedContent">
+              <div class="extra-menu-part"></div>
               <ul
                 class="navbar-nav align-items-center justify-content-between ul-menu me-auto mb-2 mb-lg-0"
               >
@@ -84,7 +85,67 @@
           </div>
         </nav>
       </header>
-      <section class="about-us-wrapper">
+      <section class="hero-slider-wrapper mt-5">
+        <div class="container">
+          <div class="hero-swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col hero-slider">
+                    <h3 class="title">
+                      Anton Maria del <span class="pink">Chiaro</span> Vermouth
+                    </h3>
+                    <p>
+                      Born in 1660, the italian Anton-Maria Del Chiaro, a
+                      Florentine by birth, was the secretary of the Wallachian
+                      Prince Constantin
+                    </p>
+                    <button class="button read-more">Read more</button>
+                  </div>
+                  <div class="col image-wrapper">
+                    <img
+                      src="assets/bottle1.png"
+                      alt="bottle"
+                      class="bottle1"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col hero-slider">
+                    <h3 class="title">
+                      Second <span class="pink">bottle</span> Vermouth
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda, aut debitis, eaque esse hic iste, labore
+                      laboriosam nostrum officiis placeat quia vero.
+                    </p>
+                    <button class="button read-more">Read more</button>
+                  </div>
+                  <div class="col image-wrapper">
+                    <img
+                      src="assets/bottle2.png"
+                      alt="bottle"
+                      class="bottle2"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+      <div class="peacock-wrapper">
+        <img src="assets/peacock.png" alt="peacock" class="peacock" />
+      </div>
+      <section class="about-us-wrapper mt-5">
         <div class="container">
           <div class="row">
             <div class="col">
@@ -145,7 +206,7 @@
                       <img
                         src="assets/bottle2.png"
                         alt="bottle2"
-                        class="img-fluid"
+                        class="show-case-image"
                       />
                     </div>
                     <div class="col-6 description">
@@ -164,7 +225,7 @@
                       <img
                         src="assets/bottle1.png"
                         alt="bottle1"
-                        class="img-fluid"
+                        class="show-case-image second-image"
                       />
                     </div>
                     <div class="col description">

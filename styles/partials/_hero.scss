@@ -1,0 +1,64 @@
+.hero-slider-wrapper {
+  .hero-swiper-container {
+    position: relative;
+    padding-bottom: 50px;
+    overflow: hidden;
+
+    .pink {
+      color: $pink;
+    }
+
+    .image-wrapper {
+      .bottle1 {
+        width: 100%;
+        max-width: 400px;
+      }
+    }
+
+    .read-more {
+      padding: 6px 30px;
+    }
+  }
+
+  //swiper styles
+  .swiper-pagination-bullet-active,
+  .swiper-pagination-bullet {
+    color: $black;
+    background-color: transparent;
+    opacity: 1;
+  }
+
+  .swiper-pagination-bullet-active {
+    color: $pink;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    top: 40.2%;
+    text-align: left;
+  }
+
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev,
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    top: 42%;
+  }
+
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    left: 5%;
+  }
+
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    right: 90%;
+  }
+
+  .swiper-button-next.swiper-button-disabled,
+  .swiper-button-prev.swiper-button-disabled {
+    opacity: 1;
+  }
+}
