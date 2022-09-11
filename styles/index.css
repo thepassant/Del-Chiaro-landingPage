@@ -48,7 +48,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
 
 .peacock {
   position: absolute;
@@ -58,9 +59,17 @@ body {
 
 .header-wrapper nav {
   background-color: transparent; }
+  .header-wrapper nav .extra-menu-part {
+    position: absolute;
+    background-color: rgba(255, 252, 237, 0.52);
+    top: 0;
+    right: -303px;
+    height: 40px;
+    width: 303px; }
   .header-wrapper nav .menu-wrapper {
     background-color: rgba(255, 252, 237, 0.52);
-    width: 60%; }
+    width: 60%;
+    position: relative; }
     .header-wrapper nav .menu-wrapper .ul-menu {
       width: 100%;
       padding-inline-end: 5px; }

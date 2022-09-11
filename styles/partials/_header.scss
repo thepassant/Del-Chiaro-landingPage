@@ -1,9 +1,12 @@
+$extra-part-width: 303px;
+
 .header-garden {
   background-image: url("../../assets/headerGarden.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   position: relative;
+  overflow: hidden;
 }
 
 .peacock {
@@ -17,9 +20,19 @@
   nav {
     background-color: transparent;
 
+    .extra-menu-part {
+      position: absolute;
+      background-color: rgba($white2, 0.52);
+      top: 0;
+      right: -$extra-part-width;
+      height: 40px;
+      width: $extra-part-width;
+    }
+
     .menu-wrapper {
       background-color: rgba($white2, 0.52);
       width: 60%;
+      position: relative;
 
       .ul-menu {
         width: 100%;
