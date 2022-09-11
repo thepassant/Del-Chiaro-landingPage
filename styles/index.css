@@ -28,7 +28,13 @@ body {
     background-color: #e45b74;
     padding: 6px 10px;
     color: #ffffff;
-    display: flex; }
+    display: inline-flex; }
+
+.header-garden {
+  background-image: url("../../assets/headerGarden.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top; }
 
 .header-wrapper nav {
   background-color: transparent; }
@@ -46,6 +52,22 @@ body {
       justify-content: center;
       gap: 5px;
       padding: 5px 15px; }
+
+.about-us-wrapper {
+  padding-bottom: 30px; }
+  .about-us-wrapper .about-us-image {
+    max-width: 400px;
+    width: 100%; }
+  .about-us-wrapper .about-us-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding-bottom: 30px; }
+    .about-us-wrapper .about-us-text #more-text {
+      display: none; }
+    .about-us-wrapper .about-us-text .read-more-button {
+      background-color: transparent; }
 
 .cocktails-wrapper {
   background-color: #f4f1e8;

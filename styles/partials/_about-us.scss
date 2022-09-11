@@ -1,0 +1,23 @@
+.about-us-wrapper {
+  padding-bottom: 30px;
+
+  .about-us-image {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .about-us-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding-bottom: 30px;
+
+    #more-text {
+      display: none;
+    }
+    .read-more-button {
+      background-color: transparent;
+    }
+  }
+}

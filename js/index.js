@@ -33,3 +33,21 @@ const onLoad = () => {
 };
 
 window.onLoad = onLoad();
+
+const showMore = () => {
+  const dots = document.getElementById("dots"),
+    moreText = document.getElementById("more-text"),
+    readMoreIcon = document.getElementById("read-more-icon");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    readMoreIcon.src = "../assets/chevronDown.svg";
+    readMoreIcon.alt = "chevron down";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    readMoreIcon.src = "../assets/blackChevronUp.svg";
+    readMoreIcon.alt = "chevron up";
+    moreText.style.display = "inline";
+  }
+};

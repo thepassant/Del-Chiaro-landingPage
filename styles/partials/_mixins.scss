@@ -16,7 +16,7 @@
   background-color: $pink;
   padding: 6px 10px;
   color: $white;
-  display: flex;
+  display: inline-flex;
 }
 
 @mixin topLayer {
