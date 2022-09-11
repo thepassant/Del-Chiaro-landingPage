@@ -107,6 +107,15 @@ $list-padding: 30px;
         }
       }
     }
+
+    #go-to-top {
+      background-color: transparent;
+      color: $white;
+
+      img {
+        margin-inline-start: 5px;
+      }
+    }
   }
 
   .copy-write {

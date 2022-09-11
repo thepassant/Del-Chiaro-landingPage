@@ -65,6 +65,11 @@
             font-weight: 300;
             font-size: 20px;
             line-height: 28px; }
+    .footer-wrapper .footer-menu-wrapper #go-to-top {
+      background-color: transparent;
+      color: #ffffff; }
+      .footer-wrapper .footer-menu-wrapper #go-to-top img {
+        margin-inline-start: 5px; }
   .footer-wrapper .copy-write {
     border-top: 1px solid #363636;
     display: flex;
