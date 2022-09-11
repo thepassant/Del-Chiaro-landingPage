@@ -36,7 +36,7 @@ window.onLoad = onLoad();
 
 const showMore = () => {
   const dots = document.getElementById("dots"),
-    moreText = document.getElementById("more"),
+    moreText = document.getElementById("more-text"),
     readMoreIcon = document.getElementById("read-more-icon");
 
   if (dots.style.display === "none") {

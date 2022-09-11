@@ -284,9 +284,9 @@ body {
     justify-content: flex-end;
     height: 100%;
     padding-bottom: 30px; }
-    .about-us-wrapper .about-us-text #more {
+    .about-us-wrapper .about-us-text #more-text {
       display: none; }
-    .about-us-wrapper .about-us-text .read-more {
+    .about-us-wrapper .about-us-text .read-more-button {
       background-color: transparent; }
 
 /*# sourceMappingURL=index.css.map */
