@@ -172,6 +172,9 @@ body .swiper-horizontal > .swiper-pagination-bullets, body .swiper-pagination-bu
 .about-us-wrapper .about-us-text .read-more-button {
   background-color: transparent;
 }
+.about-us-wrapper .about-us-text .read-more-button #read-more-icon-up {
+  display: none;
+}
 
 .show-case-wrapper {
   background-size: cover;
