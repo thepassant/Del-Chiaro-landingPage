@@ -52,7 +52,6 @@ body .swiper-horizontal > .swiper-pagination-bullets, body .swiper-pagination-bu
 }
 
 .header-garden {
-  background-image: url("../../assets/headerGarden.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -175,7 +174,6 @@ body .swiper-horizontal > .swiper-pagination-bullets, body .swiper-pagination-bu
 }
 
 .show-case-wrapper {
-  background-image: url("../../assets/showCase/bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -393,7 +391,6 @@ body .swiper-horizontal > .swiper-pagination-bullets, body .swiper-pagination-bu
 }
 
 .footer-garden {
-  background-image: url("../../assets/footerGarden.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
